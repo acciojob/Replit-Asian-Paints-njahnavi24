@@ -14,11 +14,11 @@ changeBtn.addEventListener("click", (){
 	let selectedBlock = document.getElementById(blockId.value)
 
 	if(selectedBlock) selectedBlock.style.backgroundColor = colourId.value
-	})
+})
 	resetBtn.addEventListener("click",function () {
 		gridItems.forEach(function (item) {
 			item.style.backgroundColor = "transparent"
 		})
 	blockId.value = ""
 	colourId.value = ""
-})
+	})
