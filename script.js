@@ -10,8 +10,8 @@ changeBtn.addEventListener("click", () => {
 	gridItems.forEach(function (item) {
 		item.style.backgroundColor = "transparent"
 	})
-
-	let selectedBlock = document.getElementById(blockId.value)
+	let id = blockId.value
+	let selectedBlock = document.getElementById(id)
 
 	if(selectedBlock) {
 		selectedBlock.style.backgroundColor = colourId.value
