@@ -6,7 +6,7 @@ let resetBtn = document.getElementById("reset")
 
 let gridItems = document.querySelectorAll(".grid-item")
 
-changeBtn.addEventListener("click", (){
+changeBtn.addEventListener("click", () => {
 	gridItems.forEach(function (item) {
 		item.style.backgroundColor = "transparent"
 	})
